@@ -1,16 +1,98 @@
-# React + Vite
+🤝 Apki Seva - Certificate & Resource Management Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Apki Seva is a centralized web platform designed to automate certificate issuance, monitor service activities, and manage resource allocation for institutions, NGOs, and community organizations.
 
-Currently, two official plugins are available:
+🚀 Live Demo: https://MAyurDongare12.github.io/apki-seva/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Key Features
 
-## React Compiler
+🔐 Role-Based Access Control (RBAC)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Admin: Full access to manage users, approve certificates, and resources.
 
-## Expanding the ESLint configuration
+Staff: Can verify requests and manage daily operations.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+User: Can request certificates and book resources.
+
+📜 Certificate Module
+
+Request certificates for volunteering, workshops, and internships.
+
+Real-time Status Tracking: Pending, Approved, or Rejected.
+
+Auto-Generation: View and print professional certificates with dynamic data.
+
+QR Code Integration: Simulated verification via QR codes.
+
+🏢 Resource Allocation
+
+Book resources like Conference Halls, Projectors, and Vehicles.
+
+Conflict Detection: Prevents double-booking of shared resources.
+
+Real-time availability status.
+
+📊 Smart Dashboard
+
+Live analytics for total certificates, pending requests, and active users.
+
+Recent activity logs.
+
+🛠️ Tech Stack
+
+Frontend: React.js (Vite)
+
+Styling: Tailwind CSS
+
+Icons: Lucide React
+
+Deployment: GitHub Pages
+
+🚀 Getting Started Locally
+
+Follow these steps to run the project on your machine:
+
+Clone the repository
+
+git clone [https://github.com/MAyurDongare12/apki-seva.git](https://github.com/MAyurDongare12/apki-seva.git)
+cd apki-seva
+
+
+Install Dependencies
+
+npm install
+
+
+Start Development Server
+
+npm run dev
+
+
+Open in Browser
+Navigate to http://localhost:5173
+
+🔐 Default Credentials (Demo)
+
+You can use these credentials to test different roles without signing up:
+
+Role
+
+Email
+
+Password
+
+Admin
+
+admin@test.com
+
+password
+
+Staff
+
+staff@test.com
+
+password
+
+👤 Author
+
+Developed with ❤️ by [Mayur Dongare]
